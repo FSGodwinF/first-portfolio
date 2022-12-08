@@ -8,29 +8,25 @@ const About = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-2xl md:text-4xl font-bold inline border-b-4 border-gray-500">
             About
           </p>
         </div>
 
-        <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+        <p className="text-sm md:text-xl mt-10 ">
+        I obtained a Bachelor’s Degree in Electrical Electronics Engineering from Federal University of Technology Minna.
+        I graduated with a Second Class upper grade (4.24 GPA).
+         The switch to Software development was a matter of “when” and not “if”. 
+         FreecodeCamp has enabled me work on solo projects, 
+         learning about different frameworks and tools in the process. 
+         VanillaJs, ReactJs, NodeJs, CSS, TailwindCSS, and HTML are some of the technologies I use in software development.
         </p>
 
         <br />
 
-        <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+        <p className="text-sm md:text-xl">
+        I am actively seeking opportunities to contribute my knowledge and skills
+        to accomplish goals and objectives in the field of Software.
         </p>
       </div>
     </div>

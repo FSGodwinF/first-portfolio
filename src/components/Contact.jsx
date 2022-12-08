@@ -6,17 +6,17 @@ const Contact = () => {
       name="contact"
       className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
     >
-      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
+      <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Cotact
+          <p className="text-2xl md:text-4xl font-bold inline border-b-4 border-gray-500">
+            Contact
           </p>
-          <p className="py-6">Submit the form below to get in touch with me</p>
+          <p className="py-6 text-sm md:text-xl">Have any information for me? fill the form and I will respond as soon as I can.</p>
         </div>
 
         <div className=" flex justify-center items-center">
           <form
-            action="https://getform.io/f/61c99527-2b15-42cf-9b55-ad37d2f7daa6"
+            action="https://getform.io/f/85cd6c8a-b61a-452b-ac2f-f5a244fe01b8"
             method="POST"
             className=" flex flex-col w-full md:w-1/2"
           >

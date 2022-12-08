@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaCodepen } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -9,41 +9,52 @@ const SocialLinks = () => {
       id: 1,
       child: (
         <>
-          LinkedIn <FaLinkedin size={30} />
+          LinkedIn <FaLinkedin size={20} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/fsgodwinf635/",
       style: "rounded-tr-md",
     },
     {
       id: 2,
       child: (
         <>
-          GitHub <FaGithub size={30} />
+          GitHub <FaGithub size={20} />
         </>
       ),
-      href: "https://github.com/theyashpatel",
+      href: "https://github.com/fsGodwinF",
     },
     {
       id: 3,
       child: (
         <>
-          Mail <HiOutlineMail size={30} />
+          Mail <HiOutlineMail size={20} />
         </>
       ),
-      href: "mailto:foo@gmail.com",
+      href: "mailto:fadengodwin@outlook.com",
     },
+
     {
       id: 4,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} />
+          Resume <BsFillPersonLinesFill size={20} />
         </>
       ),
-      href: "/resume.pdf",
-      style: "rounded-br-md",
+      href: "/ResumeIT.pdf",
       download: true,
     },
+    {
+      id:5,
+      child: (
+          <>
+          Codepen <FaCodepen size={20}/>
+          </>
+      ),
+      href: "https://codepen.io/F_GEE",
+      style: "rounded-br-md",
+
+  },
   ];
 
   return (
